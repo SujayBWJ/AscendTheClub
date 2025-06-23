@@ -1,0 +1,20 @@
+list of tags and properties used which are not there in the syllabus 
+Team Vortex - Sujay Ameen Tanmay Pranav
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");  used to import the font family inter
+
+ background: linear-gradient(to right, #e17000, #f78e00, #ffb347); to the right is not included but linear gradient is included in the syllabus
+
+
+used to show how many columns grid should have, it is used with display: grid property which is included in the syllabus
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+
+type="tel" is used to tell that the input must be a telephone number, tel value is not included in the syllabus
+:focus is used to write styles when that particular input is being filled 
+
+background: linear-gradient(45deg, #e17000, #f78e00); 45deg gradient is not included in the syllabus
+
+  background: linear-gradient(135deg, #e17000 0%, #f78e00 50%, #ffb347 100%); 135deg is not included in the syllabus
+
+resize: vertical;  used in the case of overflow, in text area once the visible area has been filled, we get a scrollbar for the rest of the area because of this tag
+flex: 1 although flex is included in the syllabus, flex: 1 is not used. It is used in the contact form, for placing text-boxes side by side. all the group of tags with flex: 1 will be given equal amount of available space to occupy
