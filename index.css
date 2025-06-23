@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"); /* not in syllabus */
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    #e17000,
+    #f78e00,
+    #ffb347
+  ); /* to right not in syllabus */
+  color: #001f3f;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+  font-family: poppins, sans-serif;
+  font-size: 22.5px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding:  10px;
+  position: absolute;
+  margin-bottom: 100px;
+}
+
+.logo {
+  max-width: 120px;
+  /* max-height: 100%; */
+  padding-left: 240px;
+  padding-top: 100px;
+  margin: 0 40px;
+  cursor: pointer;
+}
+.nav-links {
+  font-family: "Inter", sans-serif;
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  transition: all 0.3s ease;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #001f3f;
+}
+.nav-links a:hover {
+  color: white;
+  /* transform: scale(1.1); */
+  transition: all 0.3s ease;
+  transform: scaleZ(1.1);
+}
+
+.nav-links a.active {
+  text-decoration: underline;
+}
+
+
+.hero {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.hero-text h1 {
+  padding-left: 200px;
+  font-size: 100px;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+.highlight {
+  background-color: #001f3f;
+  color: #f57c00;
+  padding: 4px 8px;
+}
+
+.hero-description {
+  font-family: poppins, sans-serif;
+  font-weight: semi-bold;
+  padding-right: 10rem;
+  max-width: 400px;
+  font-size: 40px;
+  color: white;
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+.hero-description strong {
+  color: #001f3f;
+}
+
+#joinBtn {
+  background-color: #001f3f;
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+#joinBtn:hover {
+  background: linear-gradient(
+    to right,
+    #e17000,
+    #f78e00,
+    #ffb347
+  ); /* to right not in syllabus */
+  color: #001f3f;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+#login {
+  background-color: #001f3f;
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+#login:hover {
+  background: linear-gradient(
+    to right,
+    #e17000,
+    #f78e00,
+    #ffb347
+  ); /* to right not in syllabus */
+  color: #001f3f;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
